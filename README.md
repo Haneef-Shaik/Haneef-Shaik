@@ -20,7 +20,7 @@ architected there are used by 10,000+ people.
 
 That code is private. These public repos show how I work:
 
-| Project | |
+| Project | What it shows |
 |---|---|
 | **[Dashboard Agent](https://github.com/Haneef-Shaik/zocket)**<br>[live demo](https://zocket-nine.vercel.app) | Ask about ad performance in plain English and get a number you can defend. Every answer carries its plan, its SQL, the rows behind it, and what was wrong with the data. The model plans and narrates; a validator, a deterministic SQL compiler and DuckDB produce the number. 108 tests, no API key needed to run them. |
 | **[SuperAgent](https://github.com/Haneef-Shaik/multi-agent-architecture)** | Work in progress. A supervisor model plans each request as a task DAG, and a scheduler in code runs specialist agents (planning, coding, testing, review and others) in parallel waves. Each agent has its own tool allowlist and works inside a per-project Docker container, and a browser IDE streams the work. Next.js 16, Vercel AI SDK, MongoDB, dockerode. |
